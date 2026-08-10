@@ -1,4 +1,4 @@
-# 🧭 The Architect's Compass: 4-Layer Architecture for AI Agents
+# 4-Layer Architecture for AI Agents
 
 [Español](README.md) | **English**
 
