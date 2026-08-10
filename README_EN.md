@@ -11,10 +11,11 @@
 
 To keep from getting lost (and to prevent the LLM from hallucinating), the entire team —from junior engineers to stakeholders— must understand which layer we are standing on. The golden rule is simple: **every technical process is assigned a specific "design signature"**:
 
-* 📊 **Metric Layer:** Pure math and business rules files (`YAML` / `Cube`).
+* 📊 **Metric Layer:** Pure math and business rules files (`YAML` / `Cube`). Includes **Automatic Executive Report Generation**.
 * 🌐 **Ontological Layer:** Relationship schemas and entity definitions (`JSON` / `SQL` / Graphs).
 * 🔍 **Vector Layer:** Embeddings and unstructured semantic context (`SQL` / Vector Store).
-* 🤖 **Agentic Layer:** Traffic routing and intent dispatching (`Python` / Routers).
+* 🤖 **Agentic Layer:** Traffic routing, **Prompt Injection Security Guardrails**, and intent dispatching (`Python` / Routers).
+
 
 ---
 

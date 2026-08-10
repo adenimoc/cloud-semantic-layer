@@ -12,10 +12,11 @@
 
 Para no perdernos (ni hacer que el LLM delire), necesitamos que todo el equipo —desde el *junior* hasta el *stakeholder*— entienda en qué capa estamos parados. La regla de oro es simple: **a cada proceso técnico le asignamos una "firma de diseño"**:
 
-* 📊 **Capa Métrica:** Archivos de reglas y matemática pura (`YAML` / `Cube`).
+* 📊 **Capa Métrica:** Archivos de reglas y matemática pura (`YAML` / `Cube`). Incluye el **Generador de Reportes Ejecutivos Automáticos**.
 * 🌐 **Capa Ontológica:** Esquemas de relaciones y quién es quién (`JSON` / `SQL` / Grafos).
 * 🔍 **Capa Vectorial:** Embeddings y contexto no estructurado (`SQL` / Vector Store).
-* 🤖 **Capa Agéntica:** El tráfico y las reglas de enrutamiento (`Python` / Routers).
+* 🤖 **Capa Agéntica:** El tráfico, **Guardrails de Seguridad contra Prompt Injection** y reglas de enrutamiento (`Python` / Routers).
+
 
 ---
 
