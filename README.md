@@ -1,10 +1,14 @@
 # 🧭 La Brújula del Arquitecto: Arquitectura de 4 Capas para Agentes de IA
 
+**Español** | [English](README_EN.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Architecture](https://img.shields.io/badge/Architecture-4--Layer%20Agentic-emerald.svg)](#-la-ingeniería-marcando-las-fronteras)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-cloud--semantic--layer-181717.svg?logo=github)](https://github.com/adenimoc/cloud-semantic-layer)
 
 > **Repositorio de práctica y referencia educativa sobre la arquitectura de 4 capas para Agentes de IA: Métrica, Ontológica, Vectorial y Agéntica.**
+
 
 Para no perdernos (ni hacer que el LLM delire), necesitamos que todo el equipo —desde el *junior* hasta el *stakeholder*— entienda en qué capa estamos parados. La regla de oro es simple: **a cada proceso técnico le asignamos una "firma de diseño"**:
 
