@@ -1,4 +1,4 @@
-# 🧭 La Brújula del Arquitecto: Arquitectura de 4 Capas para Agentes de IA
+# Arquitectura de 4 Capas para Agentes de IA
 
 **Español** | [English](README_EN.md)
 
