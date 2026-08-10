@@ -2,7 +2,7 @@
 
 [Español](README.md) | **English**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Purpose: Educational](https://img.shields.io/badge/Purpose-Educational%20%26%20Open-orange.svg)](#-community-educational-use--recommendations)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Architecture](https://img.shields.io/badge/Architecture-4--Layer%20Agentic-emerald.svg)](#-engineering-setting-the-boundaries)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-cloud--semantic--layer-181717.svg?logo=github)](https://github.com/adenimoc/cloud-semantic-layer)
@@ -273,8 +273,12 @@ pip install -r 04_capa_agentica/requirements.txt
 python scripts/demo_orquestador.py
 ```
 
----
+## 📜 Community, Educational Use & Recommendations
 
-## 📜 License
+Hey there! 👋 This repository is **100% educational and community-first**. You won't find cold corporate contracts or restrictive licenses here. Feel free to use, study, modify, and share all this architectural knowledge in your own projects.
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+**Did this architecture or project help you build better AI agents?**
+* ⭐ **Give us a star on GitHub:** It helps other developers discover the 4-layer framework.
+* 🗣️ **Leave a recommendation / feedback:** Have ideas, improvements, or real-world feedback? Open an Issue or share your experience!
+* 📣 **Pass it along:** Share it with your team or post it on LinkedIn/X if you think it can save another dev from architecture headaches.
+

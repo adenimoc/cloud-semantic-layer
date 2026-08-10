@@ -2,7 +2,7 @@
 
 **Español** | [English](README_EN.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Purpose: Educational](https://img.shields.io/badge/Purpose-Educational%20%26%20Open-orange.svg)](#-comunidad-uso-educativo-y-recomendaciones)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Architecture](https://img.shields.io/badge/Architecture-4--Layer%20Agentic-emerald.svg)](#-la-ingeniería-marcando-las-fronteras)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-cloud--semantic--layer-181717.svg?logo=github)](https://github.com/adenimoc/cloud-semantic-layer)
@@ -270,6 +270,12 @@ python scripts/demo_orquestador.py
 
 ---
 
-## 📜 Licencia
+## 📜 Comunidad, Uso Educativo y Recomendaciones
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+¡Hola! 👋 Este repositorio es **100% educativo y abierto para la comunidad**. No vas a encontrar un contrato corporativo ni licencias frías aquí. Puedes usar, estudiar, modificar y compartir todo este conocimiento libremente en tus propios proyectos.
+
+**¿Te sirvió esta arquitectura o te ayudó a estructurar tus agentes de IA?**
+* ⭐ **Déjanos una estrella en GitHub:** Ayuda a que más desarrolladores descubran la regla de las 4 capas.
+* 🗣️ **Deja tu recomendación / feedback:** Si tienes ideas, mejoras o comentarios sobre cómo te funcionó en producción, ¡abre un Issue o discusión!
+* 📣 **Compártelo:** Pásaselo a tu equipo o compártelo en LinkedIn/X si crees que a alguien más le evitará dolores de cabeza.
+
