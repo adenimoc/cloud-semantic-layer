@@ -10,6 +10,14 @@ import os
 import sys
 from typing import Dict, Any
 
+# Forzar codificación utf-8 para la salida en consolas Windows
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+
 # Intentamos importar semantic_router si está disponible
 try:
     from semantic_router import Route, RouteLayer
