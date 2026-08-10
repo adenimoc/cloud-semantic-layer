@@ -1,0 +1,61 @@
+# ==============================================================================
+# 📊 CAPA MÉTRICA: REGLAS NUMÉRICAS INMUTABLES (Cube.dev / Semantic Layer)
+# ==============================================================================
+# Firma de diseño: YAML / Cube.dev
+# Propósito: Garantizar la verdad absoluta del negocio en cálculos numéricos.
+# Regla de Oro: NINGÚN LLM debe calcular sumas, márgenes ni promedios directamente.
+# ==============================================================================
+
+cubes:
+  - name: Ventas
+    sql_table: public.ventas
+    description: "Cubo principal de transacciones de ventas y métricas financieras inmutables."
+
+    # Measures (Métricas calculadas por el motor semántico, NO por el LLM)
+    measures:
+      - name: ventas_totales
+        title: "Ventas Totales Brutas"
+        type: sum
+        sql: monto
+        description: "Suma del monto bruto de todas las transacciones."
+
+      - name: ventas_netas
+        title: "Ventas Netas"
+        type: sum
+        sql: "monto - descuento"
+        description: "Ventas brutas menos descuentos aplicados para ventas completadas."
+        filters:
+          - sql: "{CUBE}.estado = 'completada'"
+
+      - name: ticket_promedio
+        title: "Ticket Promedio"
+        type: avg
+        sql: monto
+        description: "Valor promedio transaccionado por venta."
+
+      - name: conteo_transacciones
+        title: "Conteo de Transacciones"
+        type: count
+        description: "Número total de registros transaccionales."
+
+    # Dimensions (Atributos para agrupar y filtrar)
+    dimensions:
+      - name: id
+        type: number
+        sql: id
+        primary_key: true
+
+      - name: estado
+        type: string
+        sql: estado
+        description: "Estado de la venta: completada, pendiente, cancelada"
+
+      - name: metodo_pago
+        type: string
+        sql: metodo_pago
+        description: "Forma de pago utilizada: tarjeta_credito, transferencia, paypal"
+
+      - name: fecha_venta
+        type: time
+        sql: fecha_creacion
+        description: "Estampa de tiempo de la venta"
